@@ -2571,7 +2571,6 @@ int id action_text 0x7f080043
 int id actions 0x7f080044
 int id activity_chooser_view_content 0x7f080045
 int id add 0x7f080046
-int id al_Icon 0x7f0801de
 int id alertTitle 0x7f080047
 int id aligned 0x7f080048
 int id all 0x7f080049
@@ -2723,6 +2722,7 @@ int id included 0x7f0800da
 int id info 0x7f0800db
 int id invisible 0x7f0800dc
 int id inward 0x7f0800dd
+int id is_pooling_container_tag 0x7f0801df
 int id italic 0x7f0800de
 int id item_touch_helper_previous_elevation 0x7f0800df
 int id jumpToEnd 0x7f0800e0
@@ -2829,6 +2829,7 @@ int id pathRelative 0x7f080144
 int id peekHeight 0x7f080145
 int id percent 0x7f080146
 int id pin 0x7f080147
+int id pooling_container_listener_holder_tag 0x7f0801e0
 int id position 0x7f080148
 int id postLayout 0x7f080149
 int id progress_circular 0x7f08014a
@@ -2836,6 +2837,7 @@ int id progress_horizontal 0x7f08014b
 int id radio 0x7f08014c
 int id ratio 0x7f08014d
 int id rectangles 0x7f08014e
+int id recyclerview 0x7f0801e1
 int id reverseSawtooth 0x7f08014f
 int id right 0x7f080150
 int id rightToLeft 0x7f080151
@@ -2956,6 +2958,10 @@ int id transition_position 0x7f0801c3
 int id transition_scene_layoutid_cache 0x7f0801c4
 int id transition_transform 0x7f0801c5
 int id triangle 0x7f0801c6
+int id ul_Description 0x7f0801e2
+int id ul_Name 0x7f0801e3
+int id ul_bigImg 0x7f0801e4
+int id ul_smallImg 0x7f0801e5
 int id unchecked 0x7f0801c7
 int id uniform 0x7f0801c8
 int id unlabeled 0x7f0801c9
@@ -3153,6 +3159,7 @@ int layout text_view_with_line_height_from_layout 0x7f0b0070
 int layout text_view_with_line_height_from_style 0x7f0b0071
 int layout text_view_with_theme_line_height 0x7f0b0072
 int layout text_view_without_line_height 0x7f0b0073
+int layout user_list_item 0x7f0b0075
 int mipmap ic_launcher 0x7f0c0000
 int mipmap ic_launcher_round 0x7f0c0001
 int plurals mtrl_badge_content_description 0x7f0d0000

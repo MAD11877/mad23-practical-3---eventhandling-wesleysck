@@ -18,16 +18,18 @@ public class MainActivity extends AppCompatActivity {
         User user = new User ("bruh", "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.", 1, true);
 
         TextView name = findViewById(R.id.textView2);
-        Intent receive = getIntent();
-        int message = receive.getIntExtra("num", 0);
-        name.setText(String.format("%s%d",  user.name, message));
+        Intent receivingEnd = getIntent();
+        String nameGot = receivingEnd.getStringExtra("name");
+        name.setText(nameGot);
 
 
 
         TextView desc = findViewById(R.id.textView);
-        desc.setText((user.description));
+        String descGot = receivingEnd.getStringExtra("desc");
+        desc.setText(descGot);
 
         Button followBtn = findViewById(R.id.button);
+
         followBtn.setOnClickListener(v -> {
             user.followed = !user.followed;
             followBtn.setText(user.followed ? "UNFOLLOW" : "FOLLOW");

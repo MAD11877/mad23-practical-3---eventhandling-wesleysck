@@ -2572,7 +2572,6 @@ id action_text
 id actions
 id activity_chooser_view_content
 id add
-id al_Icon
 id alertTitle
 id aligned
 id all
@@ -2724,6 +2723,7 @@ id included
 id info
 id invisible
 id inward
+id is_pooling_container_tag
 id italic
 id item_touch_helper_previous_elevation
 id jumpToEnd
@@ -2830,6 +2830,7 @@ id pathRelative
 id peekHeight
 id percent
 id pin
+id pooling_container_listener_holder_tag
 id position
 id postLayout
 id progress_circular
@@ -2837,6 +2838,7 @@ id progress_horizontal
 id radio
 id ratio
 id rectangles
+id recyclerview
 id reverseSawtooth
 id right
 id rightToLeft
@@ -2957,6 +2959,10 @@ id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
 id triangle
+id ul_Description
+id ul_Name
+id ul_bigImg
+id ul_smallImg
 id unchecked
 id uniform
 id unlabeled
@@ -3154,6 +3160,7 @@ layout text_view_with_line_height_from_layout
 layout text_view_with_line_height_from_style
 layout text_view_with_theme_line_height
 layout text_view_without_line_height
+layout user_list_item
 mipmap ic_launcher
 mipmap ic_launcher_round
 plurals mtrl_badge_content_description
