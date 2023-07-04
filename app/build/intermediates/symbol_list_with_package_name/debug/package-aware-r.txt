@@ -2572,6 +2572,7 @@ id action_text
 id actions
 id activity_chooser_view_content
 id add
+id al_Icon
 id alertTitle
 id aligned
 id all
@@ -3064,6 +3065,7 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_list
 layout activity_main
 layout custom_dialog
 layout design_bottom_navigation_item

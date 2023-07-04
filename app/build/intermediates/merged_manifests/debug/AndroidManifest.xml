@@ -27,6 +27,15 @@
         android:testOnly="true"
         android:theme="@style/Theme.Madpractical" >
         <activity
+            android:name="sg.edu.np.mad.madpractical.ListActivity"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
             android:name="sg.edu.np.mad.madpractical.MainActivity"
             android:exported="true" >
             <intent-filter>
